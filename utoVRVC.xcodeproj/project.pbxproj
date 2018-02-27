@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8A72B01EFA035B001E6D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72AF1EFA035B001E6D61 /* main.m */; };
+		BA8A72B31EFA035B001E6D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72B21EFA035B001E6D61 /* AppDelegate.m */; };
+		BA8A72B61EFA035B001E6D61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72B51EFA035B001E6D61 /* ViewController.m */; };
+		BA8A72B91EFA035B001E6D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A72B71EFA035B001E6D61 /* Main.storyboard */; };
+		BA8A72BB1EFA035C001E6D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8A72BA1EFA035C001E6D61 /* Assets.xcassets */; };
+		BA8A72BE1EFA035C001E6D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8A72BC1EFA035C001E6D61 /* LaunchScreen.storyboard */; };
+		BA8A72C91EFA035C001E6D61 /* utoVRVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72C81EFA035C001E6D61 /* utoVRVCTests.m */; };
+		BA8A72D41EFA035C001E6D61 /* utoVRVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72D31EFA035C001E6D61 /* utoVRVCUITests.m */; };
+		BA8A72E31EFA04A6001E6D61 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72E21EFA04A6001E6D61 /* TestTableViewController.m */; };
+		BA8A72E61EFA0514001E6D61 /* UtoVRPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8A72E41EFA0514001E6D61 /* UtoVRPlayer.framework */; };
+		BA8A72E71EFA0514001E6D61 /* UtoVRPlayerResouces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA8A72E51EFA0514001E6D61 /* UtoVRPlayerResouces.bundle */; };
+		BA8A72EA1EFA052B001E6D61 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8A72E91EFA052B001E6D61 /* GLKit.framework */; };
+		BA8A72EC1EFA0536001E6D61 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8A72EB1EFA0536001E6D61 /* CoreMotion.framework */; };
+		BA8A72EE1EFA053E001E6D61 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8A72ED1EFA053E001E6D61 /* libz.tbd */; };
+		BA8A72F11EFA05CD001E6D61 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A72F01EFA05CD001E6D61 /* PlayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8A72C51EFA035C001E6D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8A72A31EFA035A001E6D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8A72AA1EFA035A001E6D61;
+			remoteInfo = utoVRVC;
+		};
+		BA8A72D01EFA035C001E6D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8A72A31EFA035A001E6D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8A72AA1EFA035A001E6D61;
+			remoteInfo = utoVRVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8A72AB1EFA035A001E6D61 /* utoVRVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = utoVRVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8A72AF1EFA035B001E6D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA8A72B11EFA035B001E6D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA8A72B21EFA035B001E6D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA8A72B41EFA035B001E6D61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA8A72B51EFA035B001E6D61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA8A72B81EFA035B001E6D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8A72BA1EFA035C001E6D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8A72BD1EFA035C001E6D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8A72BF1EFA035C001E6D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8A72C41EFA035C001E6D61 /* utoVRVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = utoVRVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8A72C81EFA035C001E6D61 /* utoVRVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utoVRVCTests.m; sourceTree = "<group>"; };
+		BA8A72CA1EFA035C001E6D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8A72CF1EFA035C001E6D61 /* utoVRVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = utoVRVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8A72D31EFA035C001E6D61 /* utoVRVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utoVRVCUITests.m; sourceTree = "<group>"; };
+		BA8A72D51EFA035C001E6D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8A72E11EFA04A6001E6D61 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		BA8A72E21EFA04A6001E6D61 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		BA8A72E41EFA0514001E6D61 /* UtoVRPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UtoVRPlayer.framework; sourceTree = "<group>"; };
+		BA8A72E51EFA0514001E6D61 /* UtoVRPlayerResouces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UtoVRPlayerResouces.bundle; sourceTree = "<group>"; };
+		BA8A72E91EFA052B001E6D61 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		BA8A72EB1EFA0536001E6D61 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BA8A72ED1EFA053E001E6D61 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BA8A72EF1EFA05CD001E6D61 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		BA8A72F01EFA05CD001E6D61 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8A72A81EFA035A001E6D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A72EE1EFA053E001E6D61 /* libz.tbd in Frameworks */,
+				BA8A72EC1EFA0536001E6D61 /* CoreMotion.framework in Frameworks */,
+				BA8A72EA1EFA052B001E6D61 /* GLKit.framework in Frameworks */,
+				BA8A72E61EFA0514001E6D61 /* UtoVRPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72C11EFA035C001E6D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72CC1EFA035C001E6D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8A72A21EFA035A001E6D61 = {
+			isa = PBXGroup;
+			children = (
+				BA8A72AD1EFA035A001E6D61 /* utoVRVC */,
+				BA8A72C71EFA035C001E6D61 /* utoVRVCTests */,
+				BA8A72D21EFA035C001E6D61 /* utoVRVCUITests */,
+				BA8A72AC1EFA035A001E6D61 /* Products */,
+				BA8A72E81EFA052B001E6D61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8A72AC1EFA035A001E6D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72AB1EFA035A001E6D61 /* utoVRVC.app */,
+				BA8A72C41EFA035C001E6D61 /* utoVRVCTests.xctest */,
+				BA8A72CF1EFA035C001E6D61 /* utoVRVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8A72AD1EFA035A001E6D61 /* utoVRVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72E41EFA0514001E6D61 /* UtoVRPlayer.framework */,
+				BA8A72E51EFA0514001E6D61 /* UtoVRPlayerResouces.bundle */,
+				BA8A72B11EFA035B001E6D61 /* AppDelegate.h */,
+				BA8A72B21EFA035B001E6D61 /* AppDelegate.m */,
+				BA8A72B41EFA035B001E6D61 /* ViewController.h */,
+				BA8A72B51EFA035B001E6D61 /* ViewController.m */,
+				BA8A72B71EFA035B001E6D61 /* Main.storyboard */,
+				BA8A72BA1EFA035C001E6D61 /* Assets.xcassets */,
+				BA8A72BC1EFA035C001E6D61 /* LaunchScreen.storyboard */,
+				BA8A72BF1EFA035C001E6D61 /* Info.plist */,
+				BA8A72AE1EFA035B001E6D61 /* Supporting Files */,
+				BA8A72E11EFA04A6001E6D61 /* TestTableViewController.h */,
+				BA8A72E21EFA04A6001E6D61 /* TestTableViewController.m */,
+				BA8A72EF1EFA05CD001E6D61 /* PlayerViewController.h */,
+				BA8A72F01EFA05CD001E6D61 /* PlayerViewController.m */,
+			);
+			path = utoVRVC;
+			sourceTree = "<group>";
+		};
+		BA8A72AE1EFA035B001E6D61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72AF1EFA035B001E6D61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA8A72C71EFA035C001E6D61 /* utoVRVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72C81EFA035C001E6D61 /* utoVRVCTests.m */,
+				BA8A72CA1EFA035C001E6D61 /* Info.plist */,
+			);
+			path = utoVRVCTests;
+			sourceTree = "<group>";
+		};
+		BA8A72D21EFA035C001E6D61 /* utoVRVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72D31EFA035C001E6D61 /* utoVRVCUITests.m */,
+				BA8A72D51EFA035C001E6D61 /* Info.plist */,
+			);
+			path = utoVRVCUITests;
+			sourceTree = "<group>";
+		};
+		BA8A72E81EFA052B001E6D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A72ED1EFA053E001E6D61 /* libz.tbd */,
+				BA8A72EB1EFA0536001E6D61 /* CoreMotion.framework */,
+				BA8A72E91EFA052B001E6D61 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8A72AA1EFA035A001E6D61 /* utoVRVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8A72D81EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVC" */;
+			buildPhases = (
+				BA8A72A71EFA035A001E6D61 /* Sources */,
+				BA8A72A81EFA035A001E6D61 /* Frameworks */,
+				BA8A72A91EFA035A001E6D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = utoVRVC;
+			productName = utoVRVC;
+			productReference = BA8A72AB1EFA035A001E6D61 /* utoVRVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8A72C31EFA035C001E6D61 /* utoVRVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8A72DB1EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVCTests" */;
+			buildPhases = (
+				BA8A72C01EFA035C001E6D61 /* Sources */,
+				BA8A72C11EFA035C001E6D61 /* Frameworks */,
+				BA8A72C21EFA035C001E6D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8A72C61EFA035C001E6D61 /* PBXTargetDependency */,
+			);
+			name = utoVRVCTests;
+			productName = utoVRVCTests;
+			productReference = BA8A72C41EFA035C001E6D61 /* utoVRVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8A72CE1EFA035C001E6D61 /* utoVRVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8A72DE1EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVCUITests" */;
+			buildPhases = (
+				BA8A72CB1EFA035C001E6D61 /* Sources */,
+				BA8A72CC1EFA035C001E6D61 /* Frameworks */,
+				BA8A72CD1EFA035C001E6D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8A72D11EFA035C001E6D61 /* PBXTargetDependency */,
+			);
+			name = utoVRVCUITests;
+			productName = utoVRVCUITests;
+			productReference = BA8A72CF1EFA035C001E6D61 /* utoVRVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8A72A31EFA035A001E6D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MCW;
+				TargetAttributes = {
+					BA8A72AA1EFA035A001E6D61 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9VTLHGRF8W;
+						ProvisioningStyle = Automatic;
+					};
+					BA8A72C31EFA035C001E6D61 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9VTLHGRF8W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8A72AA1EFA035A001E6D61;
+					};
+					BA8A72CE1EFA035C001E6D61 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9VTLHGRF8W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8A72AA1EFA035A001E6D61;
+					};
+				};
+			};
+			buildConfigurationList = BA8A72A61EFA035A001E6D61 /* Build configuration list for PBXProject "utoVRVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8A72A21EFA035A001E6D61;
+			productRefGroup = BA8A72AC1EFA035A001E6D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8A72AA1EFA035A001E6D61 /* utoVRVC */,
+				BA8A72C31EFA035C001E6D61 /* utoVRVCTests */,
+				BA8A72CE1EFA035C001E6D61 /* utoVRVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8A72A91EFA035A001E6D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A72E71EFA0514001E6D61 /* UtoVRPlayerResouces.bundle in Resources */,
+				BA8A72BE1EFA035C001E6D61 /* LaunchScreen.storyboard in Resources */,
+				BA8A72BB1EFA035C001E6D61 /* Assets.xcassets in Resources */,
+				BA8A72B91EFA035B001E6D61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72C21EFA035C001E6D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72CD1EFA035C001E6D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8A72A71EFA035A001E6D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A72B61EFA035B001E6D61 /* ViewController.m in Sources */,
+				BA8A72B31EFA035B001E6D61 /* AppDelegate.m in Sources */,
+				BA8A72B01EFA035B001E6D61 /* main.m in Sources */,
+				BA8A72E31EFA04A6001E6D61 /* TestTableViewController.m in Sources */,
+				BA8A72F11EFA05CD001E6D61 /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72C01EFA035C001E6D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A72C91EFA035C001E6D61 /* utoVRVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8A72CB1EFA035C001E6D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8A72D41EFA035C001E6D61 /* utoVRVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8A72C61EFA035C001E6D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8A72AA1EFA035A001E6D61 /* utoVRVC */;
+			targetProxy = BA8A72C51EFA035C001E6D61 /* PBXContainerItemProxy */;
+		};
+		BA8A72D11EFA035C001E6D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8A72AA1EFA035A001E6D61 /* utoVRVC */;
+			targetProxy = BA8A72D01EFA035C001E6D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8A72B71EFA035B001E6D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8A72B81EFA035B001E6D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8A72BC1EFA035C001E6D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8A72BD1EFA035C001E6D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8A72D61EFA035C001E6D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA8A72D71EFA035C001E6D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8A72D91EFA035C001E6D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/utoVRVC",
+				);
+				INFOPLIST_FILE = utoVRVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8A72DA1EFA035C001E6D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/utoVRVC",
+				);
+				INFOPLIST_FILE = utoVRVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8A72DC1EFA035C001E6D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				INFOPLIST_FILE = utoVRVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utoVRVC.app/utoVRVC";
+			};
+			name = Debug;
+		};
+		BA8A72DD1EFA035C001E6D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				INFOPLIST_FILE = utoVRVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/utoVRVC.app/utoVRVC";
+			};
+			name = Release;
+		};
+		BA8A72DF1EFA035C001E6D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				INFOPLIST_FILE = utoVRVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = utoVRVC;
+			};
+			name = Debug;
+		};
+		BA8A72E01EFA035C001E6D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9VTLHGRF8W;
+				INFOPLIST_FILE = utoVRVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MCW.utoVRVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = utoVRVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8A72A61EFA035A001E6D61 /* Build configuration list for PBXProject "utoVRVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A72D61EFA035C001E6D61 /* Debug */,
+				BA8A72D71EFA035C001E6D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8A72D81EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A72D91EFA035C001E6D61 /* Debug */,
+				BA8A72DA1EFA035C001E6D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8A72DB1EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A72DC1EFA035C001E6D61 /* Debug */,
+				BA8A72DD1EFA035C001E6D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8A72DE1EFA035C001E6D61 /* Build configuration list for PBXNativeTarget "utoVRVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8A72DF1EFA035C001E6D61 /* Debug */,
+				BA8A72E01EFA035C001E6D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8A72A31EFA035A001E6D61 /* Project object */;
+}
